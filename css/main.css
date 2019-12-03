@@ -5,6 +5,11 @@ background: rgb(47,122,162);
 background:linear-gradient(90deg, rgba(47,122,162,1) 0%, rgba(74,174,180,1) 47%, rgba(56,197,226,1) 100%);
 }
 
+#grad{
+background: white;
+background:linear-gradient(90deg, #ffffffbd 10%, #fffffff0 80%);
+}
+
 
 #nav {
   padding: 1.2vw;
@@ -14,15 +19,20 @@ background:linear-gradient(90deg, rgba(47,122,162,1) 0%, rgba(74,174,180,1) 47%,
 
 #mainImg{
 margin:4vw;
-max-width: 100%;
+max-width: 20vw;
 }
 
+#bookLines{
+width:20vw;}
+
+#loginButton:hover{
+background-color:gray;}
 
 
 
 #title2{
   font-family: 'Muli', sans-serif;
-  font-size: 8vw;
+  font-size: 6vw;
   font-weight: 700;
 }
 
@@ -30,13 +40,26 @@ max-width: 100%;
   font-family: 'Sacramento',cursive;
   font-size: 2vw;
 }
+#benefitImg {
+	width:12vw;
+}
+#locationImg{
+max-width:12vw; 
+}
+
+.card{
+	background-color:white;
+	padding:5vw;
+	border-radius:4vw;
+}
+
 
 .btnMain{
-  padding-left: 4vw;
-  padding-right: 4vw;
-  font-size: 1.5vw;
+  margin-top:1vw;
+  font-size: 2vw;
+  padding:10px 40px;
   font-family: 'Open Sans', sans-serif;
-  margin:6vw;
+
 }
 
 
@@ -50,4 +73,13 @@ max-width: 100%;
 
 p.desc{
   color:#495057;
+}
+
+#foot::before{
+content:"© ";
+}
+
+@media (max-width:768px){
+	.onlyLargeScreen{
+		display:none;}
 }
