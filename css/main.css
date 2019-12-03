@@ -1,0 +1,53 @@
+
+
+#back{
+background: rgb(47,122,162);
+background:linear-gradient(90deg, rgba(47,122,162,1) 0%, rgba(74,174,180,1) 47%, rgba(56,197,226,1) 100%);
+}
+
+
+#nav {
+  padding: 1.2vw;
+  font-size: 1.4rem;
+  margin: 1.2vw;
+}
+
+#mainImg{
+margin:4vw;
+max-width: 100%;
+}
+
+
+
+
+#title2{
+  font-family: 'Muli', sans-serif;
+  font-size: 8vw;
+  font-weight: 700;
+}
+
+#logo {
+  font-family: 'Sacramento',cursive;
+  font-size: 2vw;
+}
+
+.btnMain{
+  padding-left: 4vw;
+  padding-right: 4vw;
+  font-size: 1.5vw;
+  font-family: 'Open Sans', sans-serif;
+  margin:6vw;
+}
+
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 80vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+p.desc{
+  color:#495057;
+}
